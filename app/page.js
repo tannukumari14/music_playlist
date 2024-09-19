@@ -1,15 +1,13 @@
 import "./globals.css";
 import Search from "./Search";
-import MusicDisplay from "./MusicDisplay";
+import MusicDisplay from "./MusicDisplay.js";
 
 const page =() => {
   return (
     <div className="container">
       <Search />
       <div className="inside-container">
-        <MusicDisplay music={{ title: "Never Gonna Give You Up", artist: "Rick Astley" }} />
-        <MusicDisplay music={{ title: "Take On Me", artist: "a-ha" }} />
-        <MusicDisplay music={{ title: "Africa", artist: "Toto" }} />
+        <MusicDisplay />
       </div>
     </div>
   )

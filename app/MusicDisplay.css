@@ -1,0 +1,19 @@
+.music-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 157px;
+}
+
+.music-displayer{
+    border: 1px solid yellowgreen;
+    width:360px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
